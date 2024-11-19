@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 
 export const FlexContainer = styled.div`
   display: flex;
+  min-height: 50rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;

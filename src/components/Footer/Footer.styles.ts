@@ -5,7 +5,12 @@ import Link from 'next/link';
 export const FooterHeight = '80rem';
 export const FooterHeightDesktop = '26rem';
 
-export const FooterContent = styled.footer`
+export const FooterContainer = styled.footer`
+  margin-top: 5rem;
+`;
+
+
+export const FooterContent = styled.div`
   display: flex;
   height: ${FooterHeight};
   flex-direction: column;

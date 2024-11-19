@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import {
   Border,
+  FooterContainer,
   FooterContent,
   FooterSection,
   LinkStyled,
@@ -12,7 +13,7 @@ import { headerTextWhite, normalTextWhite } from '@/styles/global.styles';
 import { FooterTransition } from '@/components/Footer/components/FooterTransition/FooterTransition.component';
 
 export const Footer: FC = () => (
-  <>
+  <FooterContainer>
     <FooterTransition />
     <FooterContent>
       {footerData.map(({ header, links, socialLinks }) => (
@@ -41,5 +42,5 @@ export const Footer: FC = () => (
         </FooterSection>
       ))}
     </FooterContent>
-  </>
+  </FooterContainer>
 );
