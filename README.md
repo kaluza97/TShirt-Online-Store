@@ -1,6 +1,6 @@
 # You can test the application at the address:
 
-https://t-shirt-online-store-wq5s.vercel.app/login
+https://t-shirt-online-store.vercel.app
 
 <img width="1440" alt="1" src="https://github.com/user-attachments/assets/d4b87269-65db-49e3-981e-7dbd7deb3ee6">
 <img width="1440" alt="2" src="https://github.com/user-attachments/assets/b5986006-71a6-4d1b-86bc-444a4946954b">
