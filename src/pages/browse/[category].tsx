@@ -33,7 +33,7 @@ const CategoryDetailPage: FC = () => {
           <Typography component="h3" sx={headerTextBlack}>
             You are in the category: {category}
           </Typography>
-          <ProductsList categoryQuery={categoryQuery} />
+          <ProductsList categoryQuery={categoryQuery} isPaginate={true} />
         </FlexContainer>
       }
       footer={<Footer />}

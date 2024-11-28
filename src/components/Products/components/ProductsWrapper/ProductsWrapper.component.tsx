@@ -12,7 +12,7 @@ export const ProductsWrapper: FC = () => (
       Our most recomended products
     </Typography>
     <Box sx={productContainer}>
-      <ProductsList categoryQuery={menAndWomanCategories} />
+      <ProductsList categoryQuery={menAndWomanCategories} isPaginate={false} />
     </Box>
   </FlexContainer>
 );

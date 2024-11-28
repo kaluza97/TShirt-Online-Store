@@ -1,4 +1,4 @@
-import { normalTextBlack } from '@/styles/global.styles';
+import { button, normalTextBlack } from '@/styles/global.styles';
 import { Colors, BiggerThanPhone } from '@/styles/variables';
 import styled from '@emotion/styled';
 import { SxProps } from '@mui/material';
@@ -131,4 +131,9 @@ export const radio: SxProps = {
   '& .MuiSvgIcon-root': {
     fontSize: 26,
   },
+};
+
+export const buttonWithMargin: SxProps = {
+  ...button,
+  marginBottom: '3rem',
 };

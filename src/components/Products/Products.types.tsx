@@ -40,6 +40,7 @@ export interface ProductDetailFormProps {
 
 export interface ProductsListProps {
   categoryQuery: Array<CategoryQuery>;
+  isPaginate: boolean;
 }
 
 export interface displayPriceOrSpecialPriceProps {

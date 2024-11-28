@@ -17,4 +17,5 @@ export type CategoryQuery = {
 
 export type FetchProductsArgs = {
   categoryQuery: Array<CategoryQuery>;
+  itemsLimit: number;
 };
